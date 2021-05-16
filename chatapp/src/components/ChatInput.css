@@ -1,0 +1,51 @@
+/* .chatinput > form{
+    display:flex;
+    justify-content: center;
+    flex:1;
+    
+    
+}
+ .chatinput >form > input{
+    position:fixed;
+    width:80.5%;
+    padding:10px;
+    bottom:1px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 2px;
+    /* flex:1; */
+/* 
+} 
+.chatinput >form> button{
+    display:none;
+}   */
+
+.chatinput{
+    height:60px;
+    display:flex;
+    align-items: center;;
+   
+}
+.chatinput form{
+    display: flex;
+    align-items: center;
+    flex:1;
+    height:50px;
+    /* position:relative; */
+    
+}
+.chatinput input{
+   flex:1;
+   height: 40px;
+   position:fixed;
+   width:100%;
+   bottom:2px;
+   outline: none;
+
+}
+.chatinput button{
+    display: none;
+
+}
+
+

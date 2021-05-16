@@ -1,0 +1,57 @@
+/* .chatwindow{
+    flex:0.7;
+    flex-grow: 1;
+    display:flex;
+    flex-direction:column;
+}
+.chatwindow__header{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    padding-left: 18px;
+    border-bottom: 1px solid black;
+    
+}
+.chatwindow__groupname{
+    padding-left: 10px;
+    text-transform: lowercase;
+    font-size: 18px;
+    
+}
+.chatwindow__messages{
+    flex:0.85;
+    overflow-y:scroll;
+} */
+
+.chatwindow{
+    display:flex;
+    flex-direction:column;
+    flex:0.7;
+    flex-grow:1;
+
+
+}
+.chatwindow__header{
+    display:flex;
+    flex-direction: row;
+    /* flex:0.1; */
+    height:10%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    border-bottom: 1px solid black;
+}
+.chatwindow__groupinfo{
+    display:flex;
+}
+.chatwindow__header .MuiSvgIcon-root{
+    padding-right:10px;
+}
+.chatwindow__deleteicon{
+    cursor: pointer;
+    padding-right: 10px;
+}
+.chatwindow__messages{
+   height: 75%;
+   overflow-y:scroll;
+}

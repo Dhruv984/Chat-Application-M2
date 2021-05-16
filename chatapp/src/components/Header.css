@@ -1,0 +1,26 @@
+.header{
+    background-color: #960200;
+    color:white;
+    padding:10px 0;
+}
+.header__content{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header__avatar{
+    margin-left:20px;
+}
+.header__notification{
+    margin-right: 20px;
+}
+.header__right{
+    display:flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.header__logout{
+    cursor: pointer;
+    outline: none;
+    border:none;
+}

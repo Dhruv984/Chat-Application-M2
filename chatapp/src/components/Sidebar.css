@@ -1,0 +1,83 @@
+.sidebar{
+    background-color: #960200;
+    max-width:270px;
+    color:rgb(248, 211, 211);
+    flex:0.3;
+    /* flex-grow: inherit; */
+    border-top:1px solid white;
+}
+.sidebar__header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 13px;
+    padding-bottom:10px;
+
+}
+.sidebar__header > .MuiSvgIcon-root{
+   color:#960200; 
+   background-color: white; 
+   padding:6px;
+   font-size: 20px;
+   border-radius:100%;
+
+}
+.sidebar__header__info{
+    flex:1;
+}
+.sidebar__header__info > h3{
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom:5px;
+}
+.sidebar__header__info > h3{
+    display:flex;
+    align-items:center;
+    font-size: 13px;
+    font-weight: 500;
+}
+.sidebar__header__info >h3 >.MuiSvgIcon-root{
+    color:green;
+    font-size: 15px;
+    margin-right:2px;
+    margin-top:1px;
+}
+.sidebargroups__info{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:13px;
+    
+}
+.sidebargroups__header >h3{
+    padding:13px;
+}
+.sidebargroups__info > h3{
+    font-size:15px;
+    font-weight:600;
+ }
+.sidebargroups__header > h3{
+   font-size:15px;
+   font-weight:600;
+}
+.sidebargroups__header > div > .MuiSvgIcon-root{
+    cursor:pointer;
+}
+.sidebargroups__header > div > .MuiSvgIcon-root:hover{
+    color: rgb(188,171,188);
+}
+
+.sidebargroups__admingroups{
+    overflow-y: scroll;
+    height: 30vh;
+}
+.sidebargroups__admingroups ::-webkit-scrollbar {
+    width: 5px;
+  }
+.sidebargroups__commongroups{
+    overflow-y: scroll;
+    height:40vh;
+}
+.sidebargroups__commongroups ::-webkit-scrollbar {
+    width: 5px;
+  }

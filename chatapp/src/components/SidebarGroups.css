@@ -1,0 +1,33 @@
+.sidebargroups{
+    display:flex;
+    align-items: center;
+}
+.sidebargroups > .MuiSvgIcon-root{
+    cursor: pointer;
+}
+.group{
+    flex:1;
+
+}
+.group > h3{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding:10px 0;
+    padding-left: 10px;
+    cursor: pointer;
+    flex:1;
+    
+
+}
+.sidebargroups__deleteicon{
+    padding-right:15px;
+}
+.group__hash{
+    padding: 10px;
+}
+.group:hover{
+    opacity: 0.9;
+    background-color: #b80300;
+}
